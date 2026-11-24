@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
+# Private uploaded documents
+uploads/
+
+# Database backups
+backups/
+dump/
+*.bson
+
+# Logs
+*.log
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local testing scripts
+backend/testGemini.js
+backend/testNetwork.js
+backend/listModels.js
